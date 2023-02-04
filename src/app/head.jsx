@@ -1,0 +1,13 @@
+export default function Head() {
+  return (
+    <>
+      <title>IMDb Clone</title>
+      <meta content='width=device-width, initial-scale=1' name='viewport' />
+      <meta
+        name='description'
+        content='This is IMDb clone website created by DevWig.'
+      />
+      <link rel='icon' href='/favicon.ico' />
+    </>
+  );
+}
