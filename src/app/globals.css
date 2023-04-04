@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.movie-card {
+  transition: transform 0.3s;
+  perspective: 800px;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.movie-card.flipped {
+  transform: rotateY(180deg);
+}
